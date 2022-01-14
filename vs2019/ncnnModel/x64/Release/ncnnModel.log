@@ -1,0 +1,40 @@
+﻿  nanodet.cpp
+D:\ProgramData\ncnn-20211122-windows-vs2017-shared\x64\include\ncnn\blob.h(32,17): warning C4251: “ncnn::Blob::name”: class“std::basic_string<char,std::char_traits<char>,std::allocator<char>>”需要有 dll 接口由 class“ncnn::Blob”的客户端使用
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30037\include\xstring(4905): message : 参见“std::basic_string<char,std::char_traits<char>,std::allocator<char>>”的声明
+D:\ProgramData\ncnn-20211122-windows-vs2017-shared\x64\include\ncnn\gpu.h(190,37): warning C4273: “ncnn::create_gpu_instance”: dll 链接不一致
+D:\ProgramData\ncnn-20211122-windows-vs2017-shared\x64\include\ncnn\gpu.h(31,17): message : 参见“create_gpu_instance”的前一个定义
+D:\ProgramData\ncnn-20211122-windows-vs2017-shared\x64\include\ncnn\layer.h(154,17): warning C4251: “ncnn::Layer::type”: class“std::basic_string<char,std::char_traits<char>,std::allocator<char>>”需要有 dll 接口由 class“ncnn::Layer”的客户端使用
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30037\include\xstring(4905): message : 参见“std::basic_string<char,std::char_traits<char>,std::allocator<char>>”的声明
+D:\ProgramData\ncnn-20211122-windows-vs2017-shared\x64\include\ncnn\layer.h(156,17): warning C4251: “ncnn::Layer::name”: class“std::basic_string<char,std::char_traits<char>,std::allocator<char>>”需要有 dll 接口由 class“ncnn::Layer”的客户端使用
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30037\include\xstring(4905): message : 参见“std::basic_string<char,std::char_traits<char>,std::allocator<char>>”的声明
+D:\ProgramData\ncnn-20211122-windows-vs2017-shared\x64\include\ncnn\layer.h(159,22): warning C4251: “ncnn::Layer::bottoms”: class“std::vector<int,std::allocator<int>>”需要有 dll 接口由 class“ncnn::Layer”的客户端使用
+D:\ProgramData\opencv_3416\vc15\include\opencv2\core\types.hpp(737): message : 参见“std::vector<int,std::allocator<int>>”的声明
+D:\ProgramData\ncnn-20211122-windows-vs2017-shared\x64\include\ncnn\layer.h(161,22): warning C4251: “ncnn::Layer::tops”: class“std::vector<int,std::allocator<int>>”需要有 dll 接口由 class“ncnn::Layer”的客户端使用
+D:\ProgramData\opencv_3416\vc15\include\opencv2\core\types.hpp(737): message : 参见“std::vector<int,std::allocator<int>>”的声明
+D:\ProgramData\ncnn-20211122-windows-vs2017-shared\x64\include\ncnn\layer.h(163,22): warning C4251: “ncnn::Layer::bottom_shapes”: class“std::vector<ncnn::Mat,std::allocator<ncnn::Mat>>”需要有 dll 接口由 class“ncnn::Layer”的客户端使用
+D:\ProgramData\ncnn-20211122-windows-vs2017-shared\x64\include\ncnn\layer.h(108): message : 参见“std::vector<ncnn::Mat,std::allocator<ncnn::Mat>>”的声明
+D:\ProgramData\ncnn-20211122-windows-vs2017-shared\x64\include\ncnn\layer.h(164,22): warning C4251: “ncnn::Layer::top_shapes”: class“std::vector<ncnn::Mat,std::allocator<ncnn::Mat>>”需要有 dll 接口由 class“ncnn::Layer”的客户端使用
+D:\ProgramData\ncnn-20211122-windows-vs2017-shared\x64\include\ncnn\layer.h(108): message : 参见“std::vector<ncnn::Mat,std::allocator<ncnn::Mat>>”的声明
+F:\MyCode\VS2019\NCNN\ncnn_hairSeg\ncnnModel\ncnnModel\nanodet.cpp(125,48): warning C4267: “参数”: 从“size_t”转换到“int”，可能丢失数据
+F:\MyCode\VS2019\NCNN\ncnn_hairSeg\ncnnModel\ncnnModel\nanodet.cpp(126,47): warning C4267: “参数”: 从“size_t”转换到“int”，可能丢失数据
+F:\MyCode\VS2019\NCNN\ncnn_hairSeg\ncnnModel\ncnnModel\nanodet.cpp(132,69): warning C4244: “参数”: 从“float”转换到“_Tp”，可能丢失数据
+          with
+          [
+              _Tp=uchar
+          ]
+F:\MyCode\VS2019\NCNN\ncnn_hairSeg\ncnnModel\ncnnModel\nanodet.cpp(131,69): warning C4244: “参数”: 从“float”转换到“_Tp”，可能丢失数据
+          with
+          [
+              _Tp=uchar
+          ]
+F:\MyCode\VS2019\NCNN\ncnn_hairSeg\ncnnModel\ncnnModel\nanodet.cpp(130,65): warning C4244: “参数”: 从“float”转换到“_Tp”，可能丢失数据
+          with
+          [
+              _Tp=uchar
+          ]
+  正在生成代码
+  5 of 38 functions (13.2%) were compiled, the rest were copied from previous compilation.
+    0 functions were new in current compilation
+    0 functions had inline decision re-evaluated but remain unchanged
+  已完成代码的生成
+  ncnnModel.vcxproj -> F:\MyCode\VS2019\NCNN\ncnn_hairSeg\ncnnModel\x64\Release\ncnnModel.exe
