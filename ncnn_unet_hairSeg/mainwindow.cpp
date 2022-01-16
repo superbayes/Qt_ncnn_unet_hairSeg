@@ -51,8 +51,7 @@ MainWindow::~MainWindow()
 {
     delete ui;
     delete MyCamera;
-
-
+    delete thread_camera;
 }
 
 void MainWindow::paintEvent(QPaintEvent *e)

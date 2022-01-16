@@ -108,7 +108,6 @@ void MyUtils::DefinitionFunc(
 
 bool MyUtils::resize_keepRatio(cv::Mat &src, cv::Mat &dst, float &scale, int dstSize)
 {
-    dst = cv::Mat(dstSize, dstSize, CV_8UC3, cv::Scalar(0, 0, 0));
     float ratio_w = (float)dstSize / src.cols;
     float ratio_h = (float)dstSize / src.rows;
     cv::Mat tmpMat;
