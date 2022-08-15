@@ -4,7 +4,9 @@ hairSeg,base on Qt,ncnn,unet
 ## tech
 * c++
 * Qt 5.12.9
+* openCV
 * ncnn
+* Vulkan 1.2.198.1
 * unet
 * win10
 
